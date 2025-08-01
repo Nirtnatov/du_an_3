@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu hoc code 2</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TRINH LA GI MA LA TRINH AI CHAM</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(-45deg, #1e1e2f, #282c34, #3a3f5a, #1e1e2f);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    h1 {
+      font-size: 4rem;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #ff00cc, #3333ff, #00ffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shimmer 5s infinite, glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes gradient {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    @keyframes shimmer {
+      0% {letter-spacing: 1px;}
+      50% {letter-spacing: 4px;}
+      100% {letter-spacing: 1px;}
+    }
+
+    @keyframes glow {
+      0% {
+        text-shadow: 0 0 5px #fff,
+                     0 0 10px #fff,
+                     0 0 15px #ff00cc,
+                     0 0 20px #ff00cc;
+      }
+      100% {
+        text-shadow: 0 0 20px #fff,
+                     0 0 30px #00ffff,
+                     0 0 40px #00ffff,
+                     0 0 50px #00ffff;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h2>Tu HOC CODE 2</h2>
+  <h1>TRINH LA GI MA LA TRINH AI CHAM</h1>
 </body>
 </html>
